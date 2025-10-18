@@ -1,0 +1,78 @@
+/* Estilos generales para la página */
+body {
+  font-family: Arial, sans-serif; /* Define la fuente principal */
+  background-color: #f9f9f9; /* Color de fondo de la página */
+  margin: 0; /* Elimina márgenes */
+  padding: 0; /* Elimina rellenos */
+}
+
+/* Contenedor principal donde se agrupa el contenido */
+.container {
+  max-width: 600px; /* Ancho máximo del contenedor */
+  margin: 50px auto; /* Centra el contenedor horizontalmente y agrega margen superior */
+  background: white; /* Fondo blanco */
+  padding: 20px; /* Relleno interno */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera para dar profundidad */
+}
+
+/* Estilo del encabezado */
+h2 {
+  text-align: center; /* Centra el texto */
+  color: #333; /* Color del texto */
+}
+
+/* Estilos para el formulario */
+form {
+  margin-bottom: 20px; /* Margen inferior para separar del contenido siguiente */
+}
+
+/* Estilos para los campos de entrada y el botón */
+input,
+button {
+  width: 100%; /* Ocupa el 100% del ancho disponible */
+  padding: 10px; /* Relleno interno */
+  margin: 10px 0; /* Margen superior e inferior */
+  border: 1px solid #ccc; /* Bordes grises */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilos específicos para el botón */
+button {
+  background-color: #28a745; /* Fondo verde */
+  color: white; /* Texto en blanco */
+  border: none; /* Elimina bordes del botón */
+  cursor: pointer; /* Cambia el cursor al estilo de clic */
+}
+
+/* Cambia el color del botón al pasar el ratón */
+button:hover {
+  background-color: #218838; /* Color verde más oscuro */
+}
+
+/* Estilo para los mensajes de error */
+.error {
+  color: red; /* Texto rojo */
+  font-size: 14px; /* Tamaño de fuente pequeño */
+  display: none; /* Oculta el mensaje por defecto */
+}
+
+/* Estilos para la tabla */
+table {
+  width: 100%; /* Ocupa el 100% del ancho disponible */
+  border-collapse: collapse; /* Elimina los espacios entre bordes */
+  margin-top: 20px; /* Margen superior para separar de otros elementos */
+}
+
+/* Estilos para las celdas de la tabla */
+th,
+td {
+  padding: 10px; /* Relleno interno */
+  border: 1px solid #ddd; /* Bordes grises claros */
+  text-align: center; /* Centra el contenido */
+}
+
+/* Estilo para los encabezados de la tabla */
+th {
+  background-color: #f4f4f4; /* Fondo gris claro */
+}

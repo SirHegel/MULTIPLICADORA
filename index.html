@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- Declara el tipo de documento como HTML5 y el idioma como español -->
+<head>
+    <meta charset="UTF-8"> <!-- Especifica el conjunto de caracteres utilizado: UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Asegura que el sitio sea responsivo en dispositivos móviles -->
+    <title>Tabla de Multiplicar</title> <!-- Título de la página que se muestra en la pestaña del navegador -->
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <!-- Contenedor principal -->
+    <div class="container">
+        <h2>Generar Tabla de Multiplicar</h2> <!-- Encabezado principal -->
+
+        <!-- Formulario para ingresar un número -->
+        <form id="multiplication-form" method="POST" action="tablas.php"> <!-- Se envía por método POST -->
+            <input type="number" id="number" name="number" placeholder="Ingrese un número" required> <!-- Campo para ingresar el número -->
+            <div id="error-message" class="error">Por favor, ingrese un número válido.</div> <!-- Mensaje de error -->
+            <button type="submit">Generar Tabla</button> <!-- Botón para enviar el formulario -->
+        </form>
+    </div>
+        <script src = "script.js">
+                
+        </script>
+    </body>
+</html>
